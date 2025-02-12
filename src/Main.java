@@ -46,7 +46,14 @@ public class Main {
      //Задача 7
         var remains = boxerWeight2%boxerWeight1;
         System.out.println("Остаток от деления между двумя весами " + remains + " кг");
-
-
+   // Задача 8
+        var totalHours = 640;
+        var workingHours = 8;
+        var numberEmployees = totalHours/ workingHours;
+        System.out.println("Всего работников в компании " + numberEmployees + " человек");
+        numberEmployees = numberEmployees + 94;
+        System.out.println(numberEmployees);
+        var workingHours1 = totalHours/numberEmployees;
+        System.out.println("Если в компании работает " + numberEmployees + " человека, то всего " + workingHours1 + " часа работы может быть поделено между сотрудниками");
     }
 }
